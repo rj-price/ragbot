@@ -1,0 +1,7 @@
+docling
+lancedb
+openai
+pydantic
+python-dotenv
+streamlit
+tiktoken
