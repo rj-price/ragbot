@@ -18,7 +18,7 @@ RAG Bot is a Streamlit-based application that allows users to ask questions abou
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/ragbot.git
+    git clone https://github.com/rj-price/ragbot.git
     cd ragbot
     ```
 
@@ -27,9 +27,9 @@ RAG Bot is a Streamlit-based application that allows users to ask questions abou
     pip install -r requirements.txt
     ```
 
-3. Set up your OpenAI API key:
+3. Set up your `.env` file:
     ```bash
-    export OPENAI_API_KEY='your_openai_api_key'
+    cp .example.env .env
     ```
 
 ## Usage
