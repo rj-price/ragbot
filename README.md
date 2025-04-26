@@ -6,6 +6,8 @@ Document Q&A using RAG with OpenAI API, Docling, and LanceDB.
 
 RAG Bot is a Streamlit-based application that allows users to ask questions about uploaded documents. It uses Retrieval Augmented Generation (RAG) using the OpenAI API, Docling, and LanceDB to provide accurate and contextually relevant answers.
 
+**Note**: An OpenAI API key is required for this tool to function. Without a valid API key, the tool will not be able to connect to the OpenAI services.
+
 ## Features
 
 - Upload documents in PDF or DOCX format.
@@ -27,7 +29,7 @@ RAG Bot is a Streamlit-based application that allows users to ask questions abou
     pip install -r requirements.txt
     ```
 
-3. Set up your `.env` file:
+3. Set up your `.env` file with your OpenAI API key and model of choice:
     ```bash
     cp .example.env .env
     ```
